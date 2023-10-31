@@ -1,0 +1,143 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    padding-top: 1.5em;
+}
+
+img {
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+p {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    padding-left: 5%;
+}
+
+h1 {
+    color: hsl(212, 21%, 14%);
+    padding-left: 5%;
+    font-family: 'Fraunces', sans-serif;
+    
+}
+
+h2 {
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', sans-serif;
+    display: inline-block;
+    padding-left: 5%;
+}
+
+button {
+    padding: 5px;
+    margin-top: 1.5em;
+    width: 15em;
+    border-radius: .5em;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    color: white;
+}
+
+button:hover {
+    background-color: hsl(212, 21%, 14%);
+}
+
+.cart {
+    margin-right: 2%;
+}
+
+
+
+.div {
+    background-color: white;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    padding: 1em;
+}
+
+@media (min-width: 5px) and (max-width: 577px) {
+    img {
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+    }
+
+    .div {
+
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 1em;
+        border-bottom-left-radius: 1em;
+        padding: 1em;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+@media (min-width: 578px) and (max-width: 768px ) {
+    img {
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+    }
+
+    .div {
+
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 1em;
+        border-bottom-left-radius: 1em;
+        padding: 1em;
+    }
+
+    button {
+        margin-left: 1em;
+    }
+
+  
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    img {
+        border-bottom-left-radius: 1em;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 0;
+    }
+
+    .div {
+
+        border-top-right-radius: 1em;
+        border-bottom-right-radius: 1em;
+        border-bottom-left-radius: 0;
+        padding: 1em;
+    }
+
+    button {
+        margin-left: .5em;
+    }
+
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    img {
+        border-bottom-left-radius: 1em;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 0;
+    }
+
+    .div {
+
+        border-top-right-radius: 1em;
+        border-bottom-right-radius: 1em;
+        border-bottom-left-radius: 0;
+        padding: 1em;
+    }
+
+    button {
+        margin-left: 1em;
+    }
+
+
+}
